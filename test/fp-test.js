@@ -16,7 +16,7 @@ describe('test map using cb', () => {
 
 describe('test filter using cb', () => {
   it('should return all id * 2', () => {
-    let results = fp.filter([1,2,3,4,5,6], a => a % 2 ==== 0);
+    let results = fp.filter([1,2,3,4,5,6], a => a % 2);
     expect (results).toEqual([2,4,6]);
   });
 });
@@ -24,7 +24,7 @@ describe('test filter using cb', () => {
 
 describe('test reduce using cb', () => {
   it('should return all id * 2', () => {
-    let results = fp.reduce([1,2,3,4,5], (x + y);
+    let results = fp.reduce([1,2,3,4,5], (x, y) => x + y;
     expect(results).toEqual(15);
   });
 });
