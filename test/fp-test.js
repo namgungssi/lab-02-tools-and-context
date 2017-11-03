@@ -1,10 +1,9 @@
 'use strict';
 
 
-const
-fp = require('../lib/fp.js');
-expect = require('expect')
 
+const fp = require('../lib/fp.js');
+const expect = require('expect')
 
 
 
