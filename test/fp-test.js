@@ -2,8 +2,9 @@
 
 
 const
-expect = require('expect')
 fp = require('../lib/fp.js');
+expect = require('expect')
+
 
 
 
