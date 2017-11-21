@@ -4,10 +4,10 @@
   "description": "![cf](https://i.imgur.com/7v5ASc8.png) lab-02-tools-and-context ======",
   "main": "index.js",
   "directories": {
-    "test": "jest"
+    "test": "test"
   },
   "scripts": {
-    "test": "jest"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/namgungssi/lab-02-tools-and-context/issues"
   },
-  "homepage": "https://github.com/namgungssi/lab-02-tools-and-context#readme"
+  "homepage": "https://github.com/namgungssi/lab-02-tools-and-context#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {}
 }
