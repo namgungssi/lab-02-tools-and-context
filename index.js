@@ -2,7 +2,7 @@
 
 
 
-const fp = require('/../lib/fp.js');
+const fp = module.exports = {};
 
 
 

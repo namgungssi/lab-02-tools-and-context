@@ -3,8 +3,8 @@
 
 
 const fp = require('../lib/fp.js');
-const index = require('../lib/index.js');
-const expect = require('expect');
+const spliceCall = require('../lib/index.js');
+const express = require('express');
 
 
 
