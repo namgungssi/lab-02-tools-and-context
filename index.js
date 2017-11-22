@@ -2,7 +2,8 @@
 
 
 
-const fp = require('../lib/fp.js');
+const fp = require('/../lib/fp.js');
+
 
 
 let upperCase = module.exports = () => {
