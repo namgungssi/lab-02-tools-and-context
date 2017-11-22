@@ -5,14 +5,16 @@
 const fp = require('../lib/fp.js');
 
 
+let upperCase = module.exports = () => {
+  let list = fp.spliceCall(process.argv, 2);
 
-let dataArray = process.argv;
+
+  list = fp.mapCall(list, word => word.toUpperCase());
+  let result = list.join(' ');
+  console.log(result);
+  return result;
+
+};
 
 
-
-function upperCase(){
-  let dataUp = fp.mapCall(dataArray, letter => letter.toUpperCase());
-  console.log(dataUp);
-  return dataUp;
-}
 upperCase();
