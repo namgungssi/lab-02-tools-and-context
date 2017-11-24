@@ -2,9 +2,8 @@
 
 
 
-const fp = require('../lib/fp.js');
-const spliceCall = require('../lib/index.js');
 const express = require('express');
+const fp = require('../lib/fp.js');
 
 
 
