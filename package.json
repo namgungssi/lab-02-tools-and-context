@@ -5,7 +5,7 @@
   "main": "index.js",
   "directories": {
     "lib": "lib",
-    "test": "jest"
+    "test": "mocha"
   },
   "dependencies": {
     "cli": "^1.0.1",
@@ -13,7 +13,7 @@
     "jest": "^21.2.1"
   },
   "scripts": {
-    "test": "jest"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,9 @@
   "bugs": {
     "url": "https://github.com/namgungssi/lab-02-tools-and-context/issues"
   },
-  "homepage": "https://github.com/namgungssi/lab-02-tools-and-context#readme"
+  "homepage": "https://github.com/namgungssi/lab-02-tools-and-context#readme",
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "mocha": "^4.0.1"
+  }
 }

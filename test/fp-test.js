@@ -2,7 +2,7 @@
 
 
 
-const express = require('express');
+const expect = require('expect');
 const fp = require('../lib/fp.js');
 
 
@@ -108,7 +108,7 @@ describe('reduce using bind', () => {
 //splice testing
 describe('splice using call', () => {
   it('should return ["orange"]', () => {
-    expect(fp.spliceCall(["heaven", "hell", "orange", "life"], 2, 1).toEqual(["orange"]);
+    expect(fp.spliceCall(["heaven", "hell", "orange", "life"], 2, 1).toEqual(["orange"]));
 
   });
 
@@ -157,4 +157,3 @@ describe('splice using bind', () => {
     expect(fp.spliceBind(["heaven", "hell", "orange", "life"], 2, 0, "apple", "grape")).toEqual([]);
 
   });
-});
