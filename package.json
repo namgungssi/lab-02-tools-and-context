@@ -30,6 +30,7 @@
   "homepage": "https://github.com/namgungssi/lab-02-tools-and-context#readme",
   "devDependencies": {
     "eslint": "^4.11.0",
+    "expect": "^21.2.1",
     "mocha": "^4.0.1"
   }
 }
