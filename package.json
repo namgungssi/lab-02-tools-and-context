@@ -4,7 +4,8 @@
   "description": "![cf](https://i.imgur.com/7v5ASc8.png) lab-02-tools-and-context ======",
   "main": "index.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "test"
   },
   "dependencies": {
     "cli": "^1.0.1",
